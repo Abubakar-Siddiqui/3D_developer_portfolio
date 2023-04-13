@@ -38,7 +38,7 @@ const Contact = () => {
           from_name: form.name,
           to_name: "Abubakar Siddiqui",
           from_email: form.email,
-          to_email: "abubakarsiddiqui866@gmail.com",
+          to_email: "abubakarsiddiqui866@mail.com",
           message: form.message,
         },
         "qDvifdCJ8TZww07v2"
@@ -82,6 +82,7 @@ const Contact = () => {
           <label className="flex flex-col">
             <span className="text-white font-medium mb-4">Your Name</span>
             <input
+              required
               type="text"
               name="name"
               value={form.name}
@@ -93,11 +94,12 @@ const Contact = () => {
           <label className="flex flex-col">
             <span className="text-white font-medium mb-4">Your email</span>
             <input
+              required
               type="email"
               name="email"
               value={form.email}
               onChange={handleChange}
-              placeholder="What's your web address?"
+              placeholder="Your email address?"
               className="bg-tertiary py-4 px-6 placeholder:text-secondary text-white rounded-lg outline-none border-none font-medium"
             />
           </label>
