@@ -76,10 +76,10 @@ const technologies = [
     name: "JavaScript",
     icon: javascript,
   },
-  {
-    name: "Bootstrap",
-    icon: bootstrap,
-  },
+  // {
+  //   name: "Bootstrap",
+  //   icon: bootstrap,
+  // },
   {
     name: "React JS",
     icon: reactjs,
@@ -92,10 +92,10 @@ const technologies = [
     name: "Python",
     icon: python,
   },
-  {
-    name: "Tailwind CSS",
-    icon: tailwind,
-  },
+  // {
+  //   name: "Tailwind CSS",
+  //   icon: tailwind,
+  // },
   {
     name: "Three JS",
     icon: threejs,
@@ -112,10 +112,10 @@ const technologies = [
     name: "figma",
     icon: figma,
   },
-  {
-    name: "canva",
-    icon: canva,
-  },
+  // {
+  //   name: "canva",
+  //   icon: canva,
+  // },
   {
     name: "docker",
     icon: docker,
