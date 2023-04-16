@@ -19,9 +19,9 @@ import {
   docker,
   youvah,
   americanchase,
-  carrent,
-  jobit,
-  tripguide,
+  portfolio,
+  notes_app,
+  dajngo_crm,
   threejs,
 } from "../assets";
 
@@ -180,16 +180,16 @@ const testimonials = [
 
 const projects = [
   {
-    name: "Car Rent",
+    name: "3D Developer Protfolio",
     description:
-      "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+      "A 3d interactive developer portfolio based on three.js, The most impressive websites in the world use 3D graphics and animations to bring their content to life.",
     tags: [
       {
-        name: "react",
+        name: "three.js",
         color: "blue-text-gradient",
       },
       {
-        name: "mongodb",
+        name: "react",
         color: "green-text-gradient",
       },
       {
@@ -197,50 +197,51 @@ const projects = [
         color: "pink-text-gradient",
       },
     ],
-    image: carrent,
-    source_code_link: "https://github.com/",
+    image: portfolio,
+    source_code_link:
+      "https://github.com/Abubakar-Siddiqui/3D_developer_portfolio/",
   },
   {
-    name: "Job IT",
+    name: "Notes App",
     description:
-      "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
+      "Web application that enables users to create notes for there daily work and because the notes saves in localstorage so they don't need to login to some random websites.",
     tags: [
       {
         name: "react",
         color: "blue-text-gradient",
       },
       {
-        name: "restapi",
+        name: "localstorage",
         color: "green-text-gradient",
       },
       {
-        name: "scss",
+        name: "bootstrap",
         color: "pink-text-gradient",
       },
     ],
-    image: jobit,
-    source_code_link: "https://github.com/",
+    image: notes_app,
+    source_code_link: "https://github.com/Abubakar-Siddiqui/notes_app_react",
   },
   {
-    name: "Trip Guide",
+    name: "Django CRM",
     description:
-      "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
+      "A CRM (Customer Relationship Management) build in Django allows users to add records, update records, and delete, a basic CRUD operations.",
     tags: [
       {
-        name: "nextjs",
+        name: "django",
         color: "blue-text-gradient",
       },
       {
-        name: "supabase",
+        name: "postgresql",
         color: "green-text-gradient",
       },
       {
-        name: "css",
+        name: "bootstrap",
         color: "pink-text-gradient",
       },
     ],
-    image: tripguide,
-    source_code_link: "https://github.com/",
+    image: dajngo_crm,
+    source_code_link: "https://github.com/Abubakar-Siddiqui/Django-CRM",
   },
 ];
 

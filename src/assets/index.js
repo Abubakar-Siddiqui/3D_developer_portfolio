@@ -25,9 +25,9 @@ import threejs from "./tech/threejs.svg";
 import youvah from "./company/youvah.png";
 import americanchase from "./company/americanchase.png";
 
-import carrent from "./carrent.png";
-import jobit from "./jobit.png";
-import tripguide from "./tripguide.png";
+import portfolio from "./portfolio.png";
+import notes_app from "./notes_app.png";
+import dajngo_crm from "./django_crm.png";
 
 export {
   logo,
@@ -54,7 +54,7 @@ export {
   threejs,
   youvah,
   americanchase,
-  carrent,
-  jobit,
-  tripguide,
+  portfolio,
+  notes_app,
+  dajngo_crm,
 };
