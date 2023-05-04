@@ -137,11 +137,11 @@ const experiences = [
     ],
   },
   {
-    title: "J.r Full Stack Developer",
+    title: "Full Stack Developer",
     company_name: "American Chase",
     icon: americanchase,
     iconBg: "#E6DEDD",
-    date: "Jan 2021 - Feb 2022",
+    date: "Jun 2022 - Sep 2022",
     points: [
       "Developing and maintaining web applications using React.js, Django and other related technologies.",
       "Implementing database design and structure and working with backend APIs requests.",
