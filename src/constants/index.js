@@ -141,7 +141,7 @@ const experiences = [
     company_name: "American Chase",
     icon: americanchase,
     iconBg: "#E6DEDD",
-    date: "Jun 2022 - Sep 2022",
+    date: "June 2022 - Sep 2022",
     points: [
       "Developing and maintaining web applications using React.js, Django and other related technologies.",
       "Implementing database design and structure and working with backend APIs requests.",
